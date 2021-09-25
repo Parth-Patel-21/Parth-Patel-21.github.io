@@ -6,6 +6,10 @@ header {
     text-align: center;
 }
 
+main {
+    background-color: #cca881;
+}
+
 table {
     margin: 10px;
     border: black;
