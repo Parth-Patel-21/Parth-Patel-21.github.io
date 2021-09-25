@@ -1,4 +1,5 @@
 table td {
+    border: black 3px;
     text-align: center;
     padding: 10px;
 }
