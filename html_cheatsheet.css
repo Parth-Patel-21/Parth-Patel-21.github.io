@@ -1,4 +1,7 @@
 table {
     text-align: center;
-    border: black;
+}
+
+table thead {
+    font-weight: bold;
 }
