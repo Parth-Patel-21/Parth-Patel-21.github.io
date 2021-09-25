@@ -4,6 +4,11 @@ header {
     text-align: center;
 }
 
+table {
+    margin: 10px;
+    border: black;
+}
+
 table thead {
     font-family: 'PT Sans', sans-serif, Arial;
     font-weight: bold;
