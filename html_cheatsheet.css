@@ -10,3 +10,7 @@ table td {
     text-align: center;
     padding: 10px;
 }
+
+table .content {
+    text-align: left;
+}
