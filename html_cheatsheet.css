@@ -4,6 +4,10 @@ header {
     text-align: center;
 }
 
+body {
+    background-color: #590404;
+}
+
 table {
     margin: 10px;
     border: black;
@@ -23,7 +27,8 @@ table td {
     text-align: center;
     padding: 10px;
     font-family: 'PT Sans', sans-serif, Arial;
-    font-weight: 14px;;
+    font-weight: 14px;
+    color: white;
 }
 
 .content {
