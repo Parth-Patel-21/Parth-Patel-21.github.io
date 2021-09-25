@@ -1,9 +1,11 @@
+table thead {
+    font-weight: bold;
+    padding: 10px;
+    border: 5px solid black;
+}
+
 table td {
     border: 3px solid black;
     text-align: center;
     padding: 10px;
-}
-
-table thead {
-    font-weight: bold;
 }
