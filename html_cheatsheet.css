@@ -1,7 +1,8 @@
 table thead {
     font-weight: bold;
-    padding: 10px;
-    border: 5px solid black;
+    color: white;
+    background-color: black;
+    padding: 20px;
 }
 
 table td {
