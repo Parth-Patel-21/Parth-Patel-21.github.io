@@ -9,6 +9,7 @@ table td {
     border: 3px solid black;
     text-align: center;
     padding: 10px;
+    font-family: 'PT Sans', sans-serif, Arial;
 }
 
 .content {
