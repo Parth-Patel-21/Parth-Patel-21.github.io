@@ -6,10 +6,12 @@
 
 header { 
     background-color: #0D1D45;
+    padding: 0 15px;
 }
 
 main {
     background-color: #919CB8;
+    padding: 0 15px;
 }
 
 .projects-button {
