@@ -4,8 +4,21 @@
     box-sizing: border-box;
 }
 
+header { 
+    background-color: #0D1D45;
+}
+
 main {
     background-color: #919CB8;
+}
+
+.projects {
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    color: white;
+    background-color: #4A1D13;
+    border: 1px white solid;
 }
 
 h1, h2, h3 {
@@ -14,7 +27,6 @@ h1, h2, h3 {
 
 h1 {
     color: white;
-    background-color: #0D1D45;
     font-size: 50px;
     text-align: left;
     padding: 80px 0 30px;
