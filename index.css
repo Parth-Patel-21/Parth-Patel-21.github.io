@@ -10,7 +10,6 @@ main {
 
 h1, h2, h3 {
     font-family: 'Ovo', serif;
-    margin: 25px 0 20px;
 }
 
 h1 {
@@ -22,12 +21,13 @@ h1 {
 }
 
 h2 {
-    
     font-size: 34px;
+    padding: 25px 0 15px;
 }
 
 h3 {
     font-size: 25px;
+    padding: 25px 0 15px;
 }
 
 p {
@@ -38,4 +38,5 @@ p {
 footer {
     color: white;
     background-color: #0D1D45;
+    padding: 40px 0;
 }
