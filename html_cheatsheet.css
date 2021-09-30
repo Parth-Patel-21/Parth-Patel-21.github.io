@@ -9,13 +9,13 @@ h1 {
 }
 
 main {
-    background-color: #cca881;
+    background-color: white;
     padding-top: 10px;
 }
 
 table {
     margin: 10px;
-    border: black;
+    border: 3px solid black;
 }
 
 table thead {
@@ -28,11 +28,10 @@ table thead {
 }
 
 table td {
-    border: 3px solid black;
     text-align: center;
     padding: 10px;
     font-family: 'PT Sans', sans-serif, Arial;
-    font-weight: 14px;
+    font-size: 14px;
     color: black;
 }
 
