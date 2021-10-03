@@ -48,12 +48,14 @@ ul {
 }
 
 .element p {
+    text-align: center;
     font-weight: bold;
     font-size: 20px;
     padding: 0;
 }
 
 .attribute p {
+    text-align: center;
     font-style: italic;
     font-size: 20px;
     padding: 0;
