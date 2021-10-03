@@ -21,8 +21,8 @@ main {
     color: #D4D4D4;
     background-color: #3A5412;
     border: 2px solid #D4D4D4;
-    margin: 2% 2% 0;
-    padding: 1.5%;
+    margin: 2% 0 0 2%;
+    padding: 1.2%;
     /*cursor: pointer;*/
 }
 
