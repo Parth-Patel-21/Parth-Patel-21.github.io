@@ -50,4 +50,5 @@ ul li {
 ul li p {
     font-weight: bold;
     font-size: 20px;
+    padding: 0;
 }
