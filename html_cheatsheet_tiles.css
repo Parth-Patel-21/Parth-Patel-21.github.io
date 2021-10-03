@@ -12,6 +12,10 @@ main {
     background-color: #CCAE93;
 }
 
+h1, p, ul, li {
+    position: relative;
+}
+
 h1 {
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
