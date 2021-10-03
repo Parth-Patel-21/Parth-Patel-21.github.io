@@ -14,7 +14,7 @@ main {
 
 nav ul li {
     position: relative;
-    display: inline-block;
+    display: inline;
     color: white;
     background-color: #4A1D13;
     border: 2px solid white;
