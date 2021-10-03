@@ -36,7 +36,7 @@ ul {
     padding: 4%;
 }
 
-ul li {
+.element, .attribute {
     font-size: 18px;
     display: inline-block;
     padding: 2%;
@@ -45,16 +45,14 @@ ul li {
     background-color: #6F96A1;
     border: 2px solid #09323D;
     text-align: center;
+    font-size: 20px;
+    padding: 0;
 }
 
-ul .element {
+.element {
     font-weight: bold;
-    font-size: 20px;
-    padding: 0;
 }
 
-ul .attribute {
+.attribute {
     font-style: italic;
-    font-size: 20px;
-    padding: 0;
 }
