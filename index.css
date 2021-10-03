@@ -15,6 +15,7 @@ main {
 .nav-buttons li {
     position: relative;
     display: inline-block;
+    list-style-type: none;
     font-family: 'Quattrocento Sans', sans-serif;
     font-size: 18px;
     text-align: center;
@@ -66,5 +67,8 @@ footer {
     color: #D4D4D4;
     background-color: #0D1D45;
     padding: 3% 0;
+}
+
+footer address {
     margin: 0 4%;
 }
