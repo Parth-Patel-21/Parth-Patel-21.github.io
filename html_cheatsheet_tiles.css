@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #965415;
+}
+
+main {
+    background-color: #CCAE93;
+}
+
+ul {
+    margin: 4%;
+}
+
+ul li {
+    display: inline-block;
+    padding: 2%;
+    margin: 1%;
+    color: black;
+    background-color: #6F96A1;
+    border: 1px solid #09323D;
+}
