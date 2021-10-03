@@ -49,10 +49,10 @@ ul {
     padding: 0;
 }
 
-.element {
+.element p {
     font-weight: bold;
 }
 
-.attribute {
+.attribute p {
     font-style: italic;
 }
