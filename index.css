@@ -18,15 +18,15 @@ main {
     font-family: 'Quattrocento Sans', sans-serif;
     font-size: 18px;
     text-align: center;
-    color: #EDEDEC;
+    color: #D4D4D4;
     background-color: #3A5412;
-    border: 2px solid #EDEDEC;
+    border: 2px solid #D4D4D4;
     margin: 2% 2% 0;
     padding: 1.5%;
 }
 
 .nav-buttons li a {
-    color: #EDEDEC;
+    color: #D4D4D4;
     text-decoration: none;
 }
 
@@ -38,7 +38,7 @@ h1, h2, h3 {
 }
 
 h1 {
-    color: #ADADAD;
+    color: #D4D4D4;
     font-size: 60px;
     text-align: left;
     padding-top: 10%;
@@ -62,7 +62,7 @@ p {
 
 footer {
     position: relative;
-    color: #EDEDEC;
+    color: #D4D4D4;
     background-color: #0D1D45;
     padding: 3% 0;
 }
