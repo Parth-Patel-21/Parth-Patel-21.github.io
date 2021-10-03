@@ -47,8 +47,14 @@ ul li {
     text-align: center;
 }
 
-ul li p {
+ul .element {
     font-weight: bold;
+    font-size: 20px;
+    padding: 0;
+}
+
+ul .attribute {
+    font-style: italic;
     font-size: 20px;
     padding: 0;
 }
