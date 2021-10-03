@@ -20,6 +20,13 @@ h1 {
     padding: 30px 0;
 }
 
+p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    text-align: justify;
+    margin: 0 4%;     
+}
+
 ul {
     padding: 4%;
 }
