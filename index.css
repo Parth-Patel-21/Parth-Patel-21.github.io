@@ -25,32 +25,31 @@ main {
 
 h1, h2, h3 {
     font-family: 'Ovo', serif;
+    margin-left: 10%;
 }
 
 h1 {
     color: white;
     font-size: 50px;
     text-align: left;
-    padding: 80px 15px 30px;
 }
 
 h2 {
     font-size: 34px;
-    padding: 25px 15px 15px;
 }
 
 h3 {
     font-size: 25px;
-    padding: 25px 15px 15px;
 }
 
 p {
-    font-size: 16px;
     font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 16px;
+    margin-left: 10%;
 }
 
 footer {
     color: white;
     background-color: #0D1D45;
-    padding: 40px 15px;
+    margin-left: 10px;
 }
