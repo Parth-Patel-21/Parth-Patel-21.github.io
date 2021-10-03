@@ -21,9 +21,8 @@ main {
     color: white;
     background-color: #4A1D13;
     border: 2px solid white;
-    margin-top: 2%;
-    left: 2%;
-    padding: 1%;
+    margin: 2% 2% 0 0;
+    padding: 1.5%;
 }
 
 .nav-buttons li:hover {
