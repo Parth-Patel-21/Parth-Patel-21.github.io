@@ -51,13 +51,14 @@ ul {
     text-align: center;
     font-weight: bold;
     font-size: 20px;
+    color: #4A1D13;
     padding: 0;
 }
 
 .attribute p {
     text-align: center;
-    font-style: italic;
     font-weight: bold;
     font-size: 20px;
+    color: #3A5412;
     padding: 0;
 }
