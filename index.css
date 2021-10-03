@@ -12,23 +12,22 @@ main {
     background-color: #919CB8;
 }
 
-.projects-button {
+nav ul li {
     position: relative;
-    font-family: 'Quattrocento Sans', sans-serif;
-    font-size: 16px;
     display: inline-block;
-    width: 20%;
-    padding: 10px;
     color: white;
     background-color: #4A1D13;
-    border: 1px white solid;
+    border: 2px solid white;
+    text-align: center;
+    margin-top: 2%;
+    padding: 3%;
 }
 
 h1, h2, h3 {
     position: relative;
     font-family: 'Ovo', serif;
     margin: 0 4%;
-    padding: 4% 0;
+    padding: 3% 0;
 }
 
 h1 {
@@ -48,7 +47,7 @@ h3 {
 p {
     position: relative;
     font-family: 'Quattrocento Sans', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 22px;
     margin: 0 4%;
 }
@@ -57,5 +56,5 @@ footer {
     position: relative;
     color: white;
     background-color: #0D1D45;
-    padding: 4% 0;
+    padding: 3% 0;
 }
