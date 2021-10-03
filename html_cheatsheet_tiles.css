@@ -24,7 +24,7 @@ ul {
     padding: 4%;
 }
 
-button {
+ul li {
     font-size: 20px;
     display: inline-block;
     padding: 2%;
