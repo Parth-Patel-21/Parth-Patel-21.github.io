@@ -5,54 +5,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Cheatsheet</title>
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./html_cheatsheet.css">
+
+    <!---------- Google Fonts ---------->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
+
+    <!---------- CSS Stylesheet ---------->
+    <link rel="stylesheet" href="html_cheatsheet.css">
 </head>
 <body>
     <header>
-        <h1> HTML Elements and Attributes </h1>
+        <h1> Popular HTML Elements </h1>
     </header>
     <main>
-        <table>
-            <thead>
-                <tr>
-                    <th> Tag </th>
-                    <th> Self-Closing </th>
-                    <th> Usage </th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><code> body </code></td>
-                    <td> N </td>
-                    <td class="content"> Everything inside this element is shown inside the main
-                         browser window. </td>
-                </tr>
-                <tr>
-                    <td><code> head </code></td>
-                    <td> N </td>
-                    <td class="content"> It is often placed before the <code>body</code>
-                        element and it contains information <i>about</i> 
-                        the page. <code>title</code> element is usually
-                        found inside it. </td>
-                </tr>
-                <tr>
-                    <td><code> title </code></td>
-                    <td> N </td>
-                    <td class="content"> The contents of <code>title</code> element are 
-                        either shown in the top of the browser, or on the 
-                        tab for that page. </td>
-                </tr>
-                <tr>
-                    <td><code> title </code></td>
-                    <td> N </td>
-                    <td class="content"> The contents of <code>title</code> element are 
-                        either shown in the top of the browser, or on the 
-                        tab for that page. </td>
-                </tr>
-            </tbody>
-        </table>
+        <p> HTML stands for HyperText Markup Language. The HyperText part refers to the fact that HTML 
+            allows you to create links that allows visitors to move from one page to another quickly and 
+            easily. A markup language allows you to annotate text, and these annotations provide additional
+            meaning to the contents of a document. If you think of a web page, we add code around the origianl
+            text we want to display and the browser then uses the code to display the page correctly. So the 
+            tags we add are the markup. </p>
+        <ul>
+            <li class="element"><p>Body</p><br /><code>body</code></li>
+            <li class="element"><p>Head</p><br /><code>head</code></li>
+            <li class="element"><p>Title</p><br /><code>title</code></li>
+            <li class="element"><p>Headings</p><br /><code>h1..h6</code></li>
+            <li class="element"><p>Paragraph</p><br /><code>p</code></li>
+            <li class="element"><p>Bold</p><br /><code>b</code></li>
+            <li class="element"><p>Italic</p><br /><code>i</code></li>
+            <li class="element"><p>Superscript</p><br /><code>sup</code></li>
+            <li class="element"><p>Subscript</p><br /><code>sub</code></li>
+            <li class="element"><p>Line Break</p><br /><code>br  /</code></li>
+            <li class="element"><p>Horizontal Rule</p><br /><code>hr  /</code></li>
+            <li class="element"><p>Strong</p><br /><code>strong</code></li>
+            <li class="element"><p>Emphasis</p><br /><code>em</code></li>
+            <li class="element"><p>Quotations</p><br /><code>blockquote</code></li>
+            <li class="element"><p>Quotations</p><br /><code>q</code></li>
+            <li class="element"><p>Abbreviations/Acronyms</p><br /><code>abbr</code></li>
+            <li class="element"><p>Citations</p><br /><code>cite</code></li>
+            <li class="element"><p>Definitions</p><br /><code>dfn</code></li>
+            <li class="element"><p>Author Details</p><br /><code>address</code></li>
+            <li class="element"><p>Insert & Delete</p><br /><code>ins & del</code></li>
+            <li class="element"><p>Strikethrough</p><br /><code>s</code></li>
+            <li class="element"><p>Ordered List</p><br /><code>ol</code></li>
+            <li class="element"><p>Unordered List</p><br /><code>ul</code></li>
+            <li class="element"><p>List Item</p><br /><code>li</code></li>
+            <li class="element"><p>Definition List</p><br /><code>dl</code></li>
+            <li class="element"><p>Definition Term</p><br /><code>dt</code></li>
+            <li class="element"><p>Definition</p><br /><code>dd</code></li>
+            <li class="element"><p>Anchor</p><br /><code>a</code></li>
+            <li class="attribute"><p>Hypertext Reference</p><br /><code>href="url"</code></li>
+            <li class="attribute"><p>Email Links</p><br /><code>href="mailto:.."</code></li>
+            <li class="attribute"><p>Opening Link in New Window</p><br /><code>target="_blank"</code></li>
+            <li class="attribute"><p>Linking Specific Part on Same Page</p><br /><code>id="some_value" & href="#some_value"</code></li>
+            <li class="element"><p>Image</p><br /><code>img</code></li>
+            <li class="attribute"><p>Source</p><br /><code>src="url"</code></li>
+            <li class="attribute"><p>Failure to Load Image</p><br /><code>alt="image_error_msg"</code></li>
+            <li class="attribute"><p>Description of Image</p><br /><code>title="image_description"</code></li>
+            <li class="attribute"><p>Height & Width (in px)</p><br /><code>height="400" & width="500"</code></li>
+            <li class="element"><p>Figure</p><br /><code>figure</code></li>
+            <li class="element"><p>Figure Caption</p><br /><code>figcaption</code></li>
+            <li class="element"><p>Table</p><br /><code>table</code></li>
+            <li class="element"><p>Table Row</p><br /><code>tr</code></li>
+            <li class="element"><p>Table Data</p><br /><code>td</code></li>
+            <li class="element"><p>Table Heading</p><br /><code>th</code></li>
+            <li class="attribute"><p>Indicate Heading for Row or Column</p><br /><code>th scope="row" or th scope="col"</code></li>
+            <li class="attribute"><p>Spanning Columns</p><br /><code>td colspan="2"</code></li>
+            <li class="attribute"><p>Spanning Rows</p><br /><code> td rowspan="2"</code></li>
+            <li class="element"><p>Table Header</p><br /><code>thead</code></li>
+            <li class="element"><p>Table Body</p><br /><code>tbody</code></li>
+            <li class="element"><p>Table Footer</p><br /><code>tfoot</code></li>
+        </ul>
     </main>
 </body>
 </html>

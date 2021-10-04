@@ -4,44 +4,61 @@
     padding: 0;
 }
 
-h1 {
-    font-family: 'Work Sans', sans-serif;
-    color:burlywood;
-    background-color: #590404;
-    font-size: 40px;
-    text-align: center;
-    padding: 20px;
+header {
+    background-color: #965415;
 }
 
 main {
-    background-color: white;
-    padding-top: 10px;
+    background-color: #CCAE93;
 }
 
-table {
-    margin: 10px;
-    border: 3px solid black;
+h1, p, ul, li {
+    position: relative;
 }
 
-table thead {
-    font-family: 'PT Sans', sans-serif, Arial;
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    padding: 2% 4% 0;
+    line-height: 25px;;     
+}
+
+ul {
+    padding: 4%;
+}
+
+.element, .attribute {
+    font-size: 18px;
+    display: inline-block;
+    padding: 2%;
+    margin: 1%;
+    color: black;
+    background-color: #6F96A1;
+    border: 2px solid #09323D;
+    text-align: center;
+}
+
+.element p {
+    text-align: center;
     font-weight: bold;
     font-size: 20px;
-    color: white;
-    background-color: black;
-    border: 3px solid black;
-    height: 40px;
+    color: #721312;
+    padding: 0;
 }
 
-table td {
+.attribute p {
     text-align: center;
-    padding: 10px;
-    font-family: 'PT Sans', sans-serif, Arial;
-    font-size: 14px;
-    color: black;
-    border: 3px solid black;
-}
-
-.content {
-    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+    color: #1C45A3;
+    padding: 0;
 }
