@@ -36,6 +36,7 @@ ul {
     padding: 4%;
     display: inline-flex;
     flex-flow: row wrap;
+    align-items: center;
 }
 
 .element, .attribute {
