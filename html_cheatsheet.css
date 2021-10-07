@@ -40,18 +40,15 @@ ul {
 }
 
 .element, .attribute {
+    font-size: 18px;
+    color: black;
+    background-color: #6F96A1;
+    border: 2px solid #09323D;
     display: inline-flex;
     flex-direction: column;
     align-items: center;
     padding: 15px;
     margin: 10px 5px;
-}
-
-.element, .attribute {
-    font-size: 18px;
-    color: black;
-    background-color: #6F96A1;
-    border: 2px solid #09323D;
 }
 
 .element p {
