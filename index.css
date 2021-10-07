@@ -6,10 +6,15 @@
 
 header { 
     background-color: #0D1D45;
+    display: flex;
 }
 
 main {
     background-color: #9DA9C7;
+}
+
+.nav-buttons {
+    display: inline-flex;
 }
 
 .nav-buttons li {
