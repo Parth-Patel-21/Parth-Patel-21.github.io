@@ -24,15 +24,15 @@ main {
 .nav-buttons li {
     background-color: #3A5412;
     border: 2px solid #D4D4D4;
-    margin: 2% 0 0 2%;
+    margin: 2% 2% 0 0;
     padding: 1.2%;
-    text-decoration: none;
 }
 
 .nav-buttons li a {
     font-family: 'Quattrocento Sans', sans-serif;
     font-size: 18px;
     text-align: center;
+    text-decoration: none;
     color: #D4D4D4;
     /*cursor: pointer;*/
 }
