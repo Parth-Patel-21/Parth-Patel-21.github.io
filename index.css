@@ -12,6 +12,7 @@ header {
 
 main {
     background-color: #9DA9C7;
+    overflow: hidden;
 }
 
 .nav-buttons {
