@@ -22,7 +22,6 @@ main {
     z-index: 1;
     width: 100%;
     list-style-type: none;
-    border-bottom: 2px solid #D4D4D4;
 }
 
 .nav-buttons li {
