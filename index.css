@@ -19,6 +19,7 @@ main {
     justify-content: flex-end;
     background-color: #0D1D45;
     position: fixed;
+    z-index: 1;
     width: 100%;
     list-style-type: none;
     border-bottom: 2px solid #D4D4D4;
@@ -52,7 +53,7 @@ h1 {
     color: #D4D4D4;
     font-size: 60px;
     text-align: left;
-    padding-top: 10%;
+    padding-top: 15%;
 }
 
 h2 {
