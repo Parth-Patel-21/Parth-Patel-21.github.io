@@ -27,6 +27,7 @@ main {
 
 .nav-buttons li {
     background-color: #3A5412;
+    border: 2px solid #D4D4D4;
     margin: 2% 2% 2% 0;
     padding: 1.2%;
 }
