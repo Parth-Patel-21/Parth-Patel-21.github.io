@@ -17,6 +17,8 @@ main {
 .nav-buttons {
     display: inline-flex;
     justify-content: flex-end;
+    background-color: #0D1D45;
+    position: fixed;
     width: 100%;
     list-style-type: none;
 }
@@ -24,7 +26,7 @@ main {
 .nav-buttons li {
     background-color: #3A5412;
     border: 2px solid #D4D4D4;
-    margin: 2% 2% 0 0;
+    margin: 2% 2% 2% 0;
     padding: 1.2%;
 }
 
