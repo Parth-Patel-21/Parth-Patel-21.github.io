@@ -7,6 +7,7 @@
 header { 
     background-color: #0D1D45;
     display: flex;
+    flex-direction: column;
 }
 
 main {
@@ -15,15 +16,15 @@ main {
 
 .nav-buttons {
     display: inline-flex;
+    width: 100%;
+    list-style-type: none;
 }
 
-.nav-buttons li {
-    position: relative;
-    display: inline-block;
-    list-style-type: none;
+.nav-buttons li a {
     font-family: 'Quattrocento Sans', sans-serif;
     font-size: 18px;
     text-align: center;
+    text-decoration: none;
     color: #D4D4D4;
     background-color: #3A5412;
     border: 2px solid #D4D4D4;
@@ -32,16 +33,12 @@ main {
     /*cursor: pointer;*/
 }
 
-.nav-buttons li a {
-    color: #D4D4D4;
-    text-decoration: none;
-}
 
 h1, h2, h3 {
-    position: relative;
     font-family: 'Ovo', serif;
     margin: 0 4%;
     padding: 3% 0 1% 0;
+    width: 100%;
 }
 
 h1 {
